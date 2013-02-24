@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="WebToEE:War">
+    <output-path>$PROJECT_DIR$/out/artifacts/WebToEE_War</output-path>
+    <root id="archive" name="WebToEE_War.war">
+      <element id="javaee-facet-resources" facet="WebToEE/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="WebToEE" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="C:/Program Files (x86)/Oracle/jdbcLib/ojdbc6.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+           version="2.5">
+
+    <servlet>
+        <description>for web forms handling</description>
+        <display-name>FormHandler</display-name>
+        <servlet-name>ClientFormHandlerServlet</servlet-name>
+        <servlet-class>formHandlers.ClientFormHandlerServlet</servlet-class>
+        <load-on-startup>0</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ClientFormHandlerServlet</servlet-name>
+        <url-pattern>/FormHandler</url-pattern>
+    </servlet-mapping>
+</web-app>
